@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+<LinearLayout
+    android:id="@+id/layoutLoginBackground"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/tableowl_bg_01"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp" >
+        
+		<ImageButton
+        	android:id="@+id/btnUpdate"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginTop="25dp"
+        	android:layout_marginLeft="15dp"
+            android:background="@null"
+        	android:src="@drawable/btn_update" />
+    
+    	<TextView
+	        android:id="@+id/lblVersion"
+    	    android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginLeft="60dp"
+        	android:layout_marginTop="32dp"
+			android:textStyle="bold"
+        	android:textSize="24sp" 
+        	android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <ImageButton
+			android:id="@+id/btnUploadData"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+        	android:layout_marginTop="30dp"
+        	android:layout_alignParentRight="true"
+        	android:layout_marginRight="15dp"
+            android:background="@null"
+            android:src="@drawable/upload" />
+    	
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:gravity="center"
+            android:text="@string/stringAppName"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="42pt"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="450dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:gravity="left"
+            android:text="@string/stringLocation"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            android:textSize="24pt" />
+        
+        <ImageView
+            android:id="@+id/ImageView01"
+            android:layout_width="625dp"
+            android:layout_height="72dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginRight="85dp"
+            android:layout_marginTop="98dp"
+            android:background="@drawable/tableowl_item_04" />
+        
+         
+        <Spinner
+            android:id="@+id/spinnerLocation"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginLeft="95dp"
+            android:layout_marginRight="95dp"
+            android:layout_marginTop="98dp"
+            android:textSize="52sp"
+    		android:textColor="#000000" 
+            android:background="@null" />
+        
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="220dp"
+            android:gravity="left"
+            android:text="@string/stringStaffID"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            android:textSize="24pt" />
+
+        <TextView
+            android:id="@+id/lblLoginID"
+            android:layout_width="500dp"
+            android:layout_height="70dp"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_below="@+id/textView1"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/bg_login"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000"
+            android:textSize="52dp" />
+
+        <ImageButton
+            android:id="@+id/btnLoginIDEdit"
+            android:layout_width="500dp"
+            android:layout_height="70dp"
+            android:layout_alignBottom="@+id/lblLoginID"
+            android:layout_alignRight="@+id/lblLoginID"
+            android:layout_marginRight="10dp"
+            android:background="@null"/>
+
+        <ImageButton
+            android:id="@+id/btnLogin"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_alignBottom="@+id/lblLoginID"
+            android:layout_toRightOf="@+id/lblLoginID"
+            android:layout_marginLeft="10dp"
+            android:background="@null"
+            android:src="@drawable/btn_login" />
+        
+    <TextView
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_alignBottom="@+id/lblLoginID"
+            android:layout_toRightOf="@+id/lblLoginID"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical|center_horizontal"
+			android:textStyle="bold"
+        	android:textSize="24sp" 
+        	android:text="@string/stringLogin"
+        	android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="500dp"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/tableowl_item_03" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="30dp"
+		android:textStyle="bold"
+        android:textSize="24sp" 
+        android:text="@string/stringCompanyName"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+     </RelativeLayout>
+    
+</LinearLayout>
+
+<LinearLayout
+    android:id="@+id/layoutLoginNumberPad"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/tableowl_item_21"  >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+    	android:layout_marginTop="5dp"
+    	android:layout_marginLeft="6dp" >
+        
+    	<Button
+    	    android:id="@+id/btnLoginNumber1"
+    	    android:layout_width="70dp"
+    	    android:layout_height="fill_parent"
+    	    android:background="@drawable/xml_number_pad" />
+
+    	<Button
+    	    android:id="@+id/btnLoginNumber2"
+    	    android:layout_width="70dp"
+    	    android:layout_height="fill_parent"
+    	    android:background="@drawable/xml_number_pad" />
+    	
+    	<Button
+    	    android:id="@+id/btnLoginNumber3"
+    	    android:layout_width="70dp"
+    	    android:layout_height="fill_parent"
+    	    android:background="@drawable/xml_number_pad" />
+    	
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+    	 android:layout_marginLeft="6dp" >
+    	
+    	<Button
+    	    android:id="@+id/btnLoginNumber4"
+    	    android:layout_width="70dp"
+    	    android:layout_height="fill_parent"
+    	    android:background="@drawable/xml_number_pad" />
+
+    	<Button
+    	    android:id="@+id/btnLoginNumber5"
+    	    android:layout_width="70dp"
+    	    android:layout_height="fill_parent"
+    	    android:background="@drawable/xml_number_pad" />
+    	
+    	<Button
+    	    android:id="@+id/btnLoginNumber6"
+    	    android:layout_width="70dp"
+    	    android:layout_height="fill_parent"
+    	    android:background="@drawable/xml_number_pad" />
+    	
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+    	android:layout_marginLeft="6dp" >
+    	
+    	<Button
+    	    android:id="@+id/btnLoginNumber7"
+    	    android:layout_width="70dp"
+    	    android:layout_height="fill_parent"
+    	    android:background="@drawable/xml_number_pad" />
+
+    	<Button
+    	    android:id="@+id/btnLoginNumber8"
+    	    android:layout_width="70dp"
+    	    android:layout_height="fill_parent"
+    	    android:background="@drawable/xml_number_pad" />
+    	
+    	<Button
+    	    android:id="@+id/btnLoginNumber9"
+    	    android:layout_width="70dp"
+    	    android:layout_height="fill_parent"
+    	    android:background="@drawable/xml_number_pad" />
+    	
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+    	android:layout_marginBottom="6dp"
+    	android:layout_marginLeft="6dp" >
+    	
+    	<Button
+    	    android:id="@+id/btnLoginNumber00"
+    	    android:layout_width="70dp"
+    	    android:layout_height="fill_parent"
+    	    android:background="@drawable/xml_number_pad" />
+
+    	<Button
+    	    android:id="@+id/btnLoginNumber0"
+    	    android:layout_width="72dp"
+    	    android:layout_height="fill_parent"
+    	    android:background="@drawable/xml_number_pad" />
+    	
+    	<Button
+    	    android:id="@+id/btnLoginNumberBack"
+    	    android:layout_width="70dp"
+    	    android:layout_height="fill_parent"
+    	    android:background="@drawable/xml_number_pad" />
+    	
+    </LinearLayout>
+
+</LinearLayout>
+
+
+</RelativeLayout>

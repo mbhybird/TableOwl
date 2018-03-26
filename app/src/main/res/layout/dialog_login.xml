@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/lblServer"
+        android:layout_height="wrap_content"
+        android:layout_width="250pt"
+        android:singleLine="true"
+        android:hint="@string/stringFTPServer" /> 
+        
+    <EditText
+        android:id="@+id/lblFolder"
+        android:layout_height="wrap_content"
+        android:layout_width="250pt"
+        android:singleLine="true"
+        android:hint="@string/stringFTPFolder" /> 
+    
+	<EditText
+        android:id="@+id/lblUserName"
+        android:layout_height="wrap_content"
+        android:layout_width="250pt"
+        android:singleLine="true"
+        android:hint="@string/stringFTPUsername" /> 
+        
+    <EditText
+        android:id="@+id/lblPassword"
+        android:layout_height="wrap_content"
+        android:layout_width="250pt"
+        android:singleLine="true" 
+        android:hint="@string/stringFTPPassword" /> 
+	
+</LinearLayout>

@@ -1,0 +1,24 @@
+//Version
+0.0
+//Location
+Sands,Venetian,Plaza,Sands Cotai Central
+//Location_zh
+金沙城,威尼斯人,百利宮,金沙城中心
+//TableType
+Baccarat,No Commission Baccarat,Double No Commission Baccarat,Face Up No Commission Baccarat,Single Sic Bo,Double Sic Bo,Roulette,Double Roulette,Black Jack,Craps,Casino War,Double Fan Tan,Double Money Wheel,Fortune Three Card Poker,Poker,Caribbean Stud,Single Three Card Baccarat,Double Three Card Baccarat,Three Card Poker
+//TableType_zh
+百家樂,免佣百家樂(8座),免佣百家樂(12座),快速免佣百家樂,骰寶(單),骰寶(雙),美式輪盤(單),美式輪盤(雙),廿一點,花旗骰,娛樂場之戰,番攤,幸運輪,富貴三寶,德州撲克,加勒比海撲克,三公百家樂(單),三公百家樂(雙),富貴三公
+//TableType_SeatLimit
+8,8,12,8,0,0,6,12,6,0,7,14,0,8,8,6,8,12,8
+//BetAmount
+1000,500,100,50,25,10
+//Event
+Idle,Free Card,Fill / Credit,Dispute,Change Shoe,Change Dealer
+//Event_zh
+沒有客人,免費局,加彩/繳碼,爭議,換牌靴,換荷官
+//FTP
+vmlftp.venetian.com.mo
+//OutputFilePath
+/Slot
+//OutputFilePassword
+00000000

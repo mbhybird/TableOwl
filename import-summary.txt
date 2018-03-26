@@ -1,0 +1,250 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .DS_Store
+* .idea/
+* .idea/compiler.xml
+* .idea/copyright/
+* .idea/copyright/profiles_settings.xml
+* .idea/misc.xml
+* .idea/workspace.xml
+* META-INF/
+* META-INF/LICENSE.txt
+* META-INF/MANIFEST.MF
+* META-INF/NOTICE.txt
+* app/
+* app/build.gradle
+* app/lint.xml
+* app/src/
+* app/src/main/
+* app/src/main/AndroidManifest.xml
+* app/src/main/assets/
+* app/src/main/assets/Config.txt
+* app/src/main/java/
+* app/src/main/java/com/
+* app/src/main/java/com/motix/
+* app/src/main/java/com/motix/TableOwl/
+* app/src/main/java/com/motix/TableOwl/CountViewActivity.java
+* app/src/main/java/com/motix/TableOwl/SelectTypeActivity.java
+* app/src/main/java/com/motix/TableOwl/TableOwlActivity.java
+* app/src/main/res/
+* app/src/main/res/.DS_Store
+* app/src/main/res/drawable-hdpi/
+* app/src/main/res/drawable-hdpi/.DS_Store
+* app/src/main/res/drawable-hdpi/bg_lbl_black.png
+* app/src/main/res/drawable-hdpi/bg_lbl_white.png
+* app/src/main/res/drawable-hdpi/bg_login.png
+* app/src/main/res/drawable-hdpi/btn_add.png
+* app/src/main/res/drawable-hdpi/btn_add2.png
+* app/src/main/res/drawable-hdpi/btn_add_coins.png
+* app/src/main/res/drawable-hdpi/btn_add_coins2.png
+* app/src/main/res/drawable-hdpi/btn_events.png
+* app/src/main/res/drawable-hdpi/btn_events_1.png
+* app/src/main/res/drawable-hdpi/btn_events_2.png
+* app/src/main/res/drawable-hdpi/btn_events_3.png
+* app/src/main/res/drawable-hdpi/btn_events_4.png
+* app/src/main/res/drawable-hdpi/btn_login.png
+* app/src/main/res/drawable-hdpi/btn_minus.png
+* app/src/main/res/drawable-hdpi/btn_minus2.png
+* app/src/main/res/drawable-hdpi/btn_minus_coins.png
+* app/src/main/res/drawable-hdpi/btn_start.png
+* app/src/main/res/drawable-hdpi/btn_update.png
+* app/src/main/res/drawable-hdpi/gender_female.png
+* app/src/main/res/drawable-hdpi/gender_male.png
+* app/src/main/res/drawable-hdpi/ic_launcher.png
+* app/src/main/res/drawable-hdpi/key_pad_btn.png
+* app/src/main/res/drawable-hdpi/key_pad_btn2.png
+* app/src/main/res/drawable-hdpi/left.png
+* app/src/main/res/drawable-hdpi/number_pad_pressed.png
+* app/src/main/res/drawable-hdpi/right.png
+* app/src/main/res/drawable-hdpi/selected_background.png
+* app/src/main/res/drawable-hdpi/setting.png
+* app/src/main/res/drawable-hdpi/tableowl_bg_01.png
+* app/src/main/res/drawable-hdpi/tableowl_bg_02.png
+* app/src/main/res/drawable-hdpi/tableowl_bg_03.png
+* app/src/main/res/drawable-hdpi/tableowl_bg_04.png
+* app/src/main/res/drawable-hdpi/tableowl_bg_05.png
+* app/src/main/res/drawable-hdpi/tableowl_bg_07.png
+* app/src/main/res/drawable-hdpi/tableowl_item_01.png
+* app/src/main/res/drawable-hdpi/tableowl_item_02.png
+* app/src/main/res/drawable-hdpi/tableowl_item_03.png
+* app/src/main/res/drawable-hdpi/tableowl_item_04.png
+* app/src/main/res/drawable-hdpi/tableowl_item_05.png
+* app/src/main/res/drawable-hdpi/tableowl_item_06.png
+* app/src/main/res/drawable-hdpi/tableowl_item_07.png
+* app/src/main/res/drawable-hdpi/tableowl_item_08.png
+* app/src/main/res/drawable-hdpi/tableowl_item_09.png
+* app/src/main/res/drawable-hdpi/tableowl_item_10.png
+* app/src/main/res/drawable-hdpi/tableowl_item_11.png
+* app/src/main/res/drawable-hdpi/tableowl_item_12.png
+* app/src/main/res/drawable-hdpi/tableowl_item_13.png
+* app/src/main/res/drawable-hdpi/tableowl_item_14.png
+* app/src/main/res/drawable-hdpi/tableowl_item_15.png
+* app/src/main/res/drawable-hdpi/tableowl_item_16.png
+* app/src/main/res/drawable-hdpi/tableowl_item_17.png
+* app/src/main/res/drawable-hdpi/tableowl_item_18.png
+* app/src/main/res/drawable-hdpi/tableowl_item_19.png
+* app/src/main/res/drawable-hdpi/tableowl_item_20.png
+* app/src/main/res/drawable-hdpi/tableowl_item_21.png
+* app/src/main/res/drawable-hdpi/tableowl_item_22.png
+* app/src/main/res/drawable-hdpi/tableowl_item_23.png
+* app/src/main/res/drawable-hdpi/tableowl_item_24.png
+* app/src/main/res/drawable-hdpi/tableowl_item_25.png
+* app/src/main/res/drawable-hdpi/tableowl_item_26.png
+* app/src/main/res/drawable-hdpi/tableowl_item_27.png
+* app/src/main/res/drawable-hdpi/tableowl_item_28.png
+* app/src/main/res/drawable-hdpi/tableowl_item_29.png
+* app/src/main/res/drawable-hdpi/tableowl_item_30.png
+* app/src/main/res/drawable-hdpi/tableowl_item_31.png
+* app/src/main/res/drawable-hdpi/tableowl_item_32.png
+* app/src/main/res/drawable-hdpi/tableowl_item_33.png
+* app/src/main/res/drawable-hdpi/tableowl_item_34.png
+* app/src/main/res/drawable-hdpi/tableowl_item_35.png
+* app/src/main/res/drawable-hdpi/tableowl_item_36.png
+* app/src/main/res/drawable-hdpi/tableowl_item_btn.png
+* app/src/main/res/drawable-hdpi/tableowl_item_btn2.png
+* app/src/main/res/drawable-hdpi/upload.png
+* app/src/main/res/drawable-ldpi/
+* app/src/main/res/drawable-ldpi/.DS_Store
+* app/src/main/res/drawable-ldpi/xml_add_coin.xml
+* app/src/main/res/drawable-ldpi/xml_btn_activity.xml
+* app/src/main/res/drawable-ldpi/xml_number_pad.xml
+* app/src/main/res/drawable-mdpi/
+* app/src/main/res/drawable-mdpi/.DS_Store
+* app/src/main/res/drawable-xhdpi/
+* app/src/main/res/drawable-xhdpi/.DS_Store
+* app/src/main/res/layout/
+* app/src/main/res/layout/countview.xml
+* app/src/main/res/layout/dialog_login.xml
+* app/src/main/res/layout/main.xml
+* app/src/main/res/layout/selecttype.xml
+* app/src/main/res/layout/spinner_view.xml
+* app/src/main/res/values-zh-rCN/
+* app/src/main/res/values-zh-rCN/strings.xml
+* app/src/main/res/values-zh-rTW/
+* app/src/main/res/values-zh-rTW/strings.xml
+* app/src/main/res/values-zh/
+* app/src/main/res/values-zh/strings.xml
+* app/src/main/res/values/
+* app/src/main/res/values/strings.xml
+* app/src/main/resources/
+* app/src/main/resources/.DS_Store
+* app/src/main/resources/com/
+* app/src/main/resources/com/.DS_Store
+* app/src/main/resources/com/motix/
+* app/src/main/resources/com/motix/.DS_Store
+* build.gradle
+* gradle/
+* gradle/wrapper/
+* gradle/wrapper/gradle-wrapper.jar
+* gradle/wrapper/gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* org/
+* org/.DS_Store
+* org/apache/
+* org/apache/.DS_Store
+* org/apache/commons/
+* org/apache/commons/.DS_Store
+* org/apache/commons/net/
+* org/apache/commons/net/DatagramSocketClient.class
+* org/apache/commons/net/DatagramSocketFactory.class
+* org/apache/commons/net/DefaultDatagramSocketFactory.class
+* org/apache/commons/net/DefaultSocketFactory.class
+* org/apache/commons/net/MalformedServerReplyException.class
+* org/apache/commons/net/PrintCommandListener.class
+* org/apache/commons/net/ProtocolCommandEvent.class
+* org/apache/commons/net/ProtocolCommandListener.class
+* org/apache/commons/net/ProtocolCommandSupport.class
+* org/apache/commons/net/SocketClient.class
+* org/apache/commons/net/ftp/
+* org/apache/commons/net/ftp/Configurable.class
+* org/apache/commons/net/ftp/FTP.class
+* org/apache/commons/net/ftp/FTPClient.class
+* org/apache/commons/net/ftp/FTPClientConfig.class
+* org/apache/commons/net/ftp/FTPCommand.class
+* org/apache/commons/net/ftp/FTPConnectionClosedException.class
+* org/apache/commons/net/ftp/FTPFile.class
+* org/apache/commons/net/ftp/FTPFileEntryParser.class
+* org/apache/commons/net/ftp/FTPFileEntryParserImpl.class
+* org/apache/commons/net/ftp/FTPListParseEngine.class
+* org/apache/commons/net/ftp/FTPReply.class
+* org/apache/commons/net/ftp/FTPSClient.class
+* org/apache/commons/net/ftp/FTPSCommand.class
+* org/apache/commons/net/ftp/FTPSSocketFactory.class
+* org/apache/commons/net/ftp/FTPSTrustManager.class
+* org/apache/commons/net/ftp/parser/
+* org/apache/commons/net/ftp/parser/CompositeFileEntryParser.class
+* org/apache/commons/net/ftp/parser/ConfigurableFTPFileEntryParserImpl.class
+* org/apache/commons/net/ftp/parser/DefaultFTPFileEntryParserFactory.class
+* org/apache/commons/net/ftp/parser/EnterpriseUnixFTPEntryParser.class
+* org/apache/commons/net/ftp/parser/FTPFileEntryParserFactory.class
+* org/apache/commons/net/ftp/parser/FTPTimestampParser.class
+* org/apache/commons/net/ftp/parser/FTPTimestampParserImpl.class
+* org/apache/commons/net/ftp/parser/MVSFTPEntryParser.class
+* org/apache/commons/net/ftp/parser/NTFTPEntryParser.class
+* org/apache/commons/net/ftp/parser/NetwareFTPEntryParser.class
+* org/apache/commons/net/ftp/parser/OS2FTPEntryParser.class
+* org/apache/commons/net/ftp/parser/OS400FTPEntryParser.class
+* org/apache/commons/net/ftp/parser/ParserInitializationException.class
+* org/apache/commons/net/ftp/parser/RegexFTPFileEntryParserImpl.class
+* org/apache/commons/net/ftp/parser/UnixFTPEntryParser.class
+* org/apache/commons/net/ftp/parser/VMSFTPEntryParser.class
+* org/apache/commons/net/ftp/parser/VMSVersioningFTPEntryParser$NameVersion.class
+* org/apache/commons/net/ftp/parser/VMSVersioningFTPEntryParser.class
+* org/apache/commons/net/io/
+* org/apache/commons/net/io/CopyStreamAdapter.class
+* org/apache/commons/net/io/CopyStreamEvent.class
+* org/apache/commons/net/io/CopyStreamException.class
+* org/apache/commons/net/io/CopyStreamListener.class
+* org/apache/commons/net/io/DotTerminatedMessageReader.class
+* org/apache/commons/net/io/DotTerminatedMessageWriter.class
+* org/apache/commons/net/io/FromNetASCIIInputStream.class
+* org/apache/commons/net/io/FromNetASCIIOutputStream.class
+* org/apache/commons/net/io/SocketInputStream.class
+* org/apache/commons/net/io/SocketOutputStream.class
+* org/apache/commons/net/io/ToNetASCIIInputStream.class
+* org/apache/commons/net/io/ToNetASCIIOutputStream.class
+* org/apache/commons/net/io/Util.class
+* org/apache/commons/net/util/
+* org/apache/commons/net/util/ListenerList.class
+* org/apache/commons/net/util/SubnetUtils$1.class
+* org/apache/commons/net/util/SubnetUtils$SubnetInfo.class
+* org/apache/commons/net/util/SubnetUtils.class
+* proguard-project.txt
+* settings.gradle
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets/
+* lint.xml => app/lint.xml
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+* src/.DS_Store => app/src/main/resources/.DS_Store
+* src/com/.DS_Store => app/src/main/resources/com/.DS_Store
+* src/com/motix/.DS_Store => app/src/main/resources/com/motix/.DS_Store
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="stringAppName">Table Owl</string>
+    <string name="app_name">Table Owl</string>
+    <string name="stringCompanyName">MOTIX</string>
+    <string name="stringLocation">工作地點</string>
+    <string name="stringStaffID">員工號碼</string>
+    <string name="stringLogin">登入</string>
+    <string name="stringLogout">登出</string>
+    <string name="stringMan">男</string>
+    <string name="stringWoman">女</string>
+    <string name="stringTableID">賭枱編號</string>
+    <string name="stringMinBet">最少投注額</string>
+    <string name="stringNext">開始下注</string>
+    <string name="stringBetCount">投注數</string>
+    <string name="stringBetAmount">投注金額</string>
+    <string name="stringSeat">坐</string>
+    <string name="stringStand">站</string>
+    <string name="stringTotal">總數</string>
+    <string name="stringActivity">狀態</string>
+    <string name="stringPatron">顧客</string>
+    <string name="stringEvents">特別事件</string>
+    <string name="stringTableType">枱面類型</string>
+    <string name="stringDealer">荷官性別</string>
+    <string name="stringTitleGender"> | </string>
+    <string name="stringTitleMinBet"> | 最少投注額 : </string>
+    <string name="stringStaffIDEmptyMessage">請輸入員工號碼。</string>
+    <string name="stringTableIDEmptyMessage">請輸入賭枱編號。</string>
+	<string name="stringGenderMessage">請選擇荷官性別。</string>
+	<string name="stringMinBetEmptyMessage">請輸入最少投注額。</string>
+	<string name="stringMissSetting">請先更新設定檔案。</string>
+	<string name="stringUpdate">更新設定</string>
+	<string name="stringUploadMessage">你確定上傳檔案？</string>
+	<string name="stringUploadingMessage">上傳中</string>
+	<string name="stringDownloadingMessage">下載中</string>
+	<string name="stringUploadNoFile">沒有檔案可以上傳。</string>
+	<string name="stringUploadSuccessful">以上檔案上傳成功。</string>
+	<string name="stringUploadFailed">以上檔案上傳失敗，請稍後再試。</string>
+	<string name="stringUpdateSettingSuccessful">更新成功。</string>
+	<string name="stringUpdateSettingFailed">更新失敗，請稍後再試。</string>
+	<string name="stringConnectionError">連接錯誤，請稍後再試。</string>
+	<string name="stringFinishMessage">你確定結束這次觀測？</string>
+	<string name="stringFinishOkay">是</string>
+	<string name="stringFinishCancel">否</string>
+	<string name="stringConnect">連接</string>
+	<string name="stringFTPServer">FTP伺服器</string>
+	<string name="stringFTPFolder">FTP資料夾</string>
+	<string name="stringFTPUsername">FTP用戶名稱</string>
+	<string name="stringFTPPassword">FTP密碼</string>
+    <string-array name="stringArrayActivity">
+        <item>下注</item>
+        <item>發牌</item>
+        <item>派彩</item>
+    </string-array>
+    <color name="colorLine">#666666</color>
+    <color name="colorSelectTypeLine">#FFFFFF</color>
+</resources>

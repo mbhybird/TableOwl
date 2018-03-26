@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="stringAppName">Table Owl</string>
+    <string name="app_name">Table Owl</string>
+    <string name="stringCompanyName">MOTIX</string>
+    <string name="stringLocation">Location</string>
+    <string name="stringStaffID">Staff ID</string>
+    <string name="stringLogin">Login</string>
+    <string name="stringLogout">Logout</string>
+    <string name="stringMan">Man</string>
+    <string name="stringWoman">Woman</string>
+    <string name="stringTableID">Table ID</string>
+    <string name="stringMinBet">Minimum Bet</string>
+    <string name="stringBetCount">Bet#</string>
+    <string name="stringBetAmount">Bet Amount</string>
+    <string name="stringNext">Start Betting</string>
+    <string name="stringSeat">Seat</string>
+    <string name="stringStand">Stand</string>
+    <string name="stringTotal">Total</string>
+    <string name="stringActivity">Activity</string>
+    <string name="stringPatron">Patron</string>
+    <string name="stringEvents">Events</string>
+    <string name="stringTableType">Table Type</string>
+    <string name="stringDealer">Dealer</string>
+    <string name="stringTitleGender"> | </string>
+    <string name="stringTitleMinBet"> | Minimum Bet : </string>
+    <string name="stringStaffIDEmptyMessage">Please input Staff ID.</string>
+    <string name="stringTableIDEmptyMessage">Please input Table ID.</string>
+    <string name="stringGenderMessage">Please select Dealer Gender.</string>
+    <string name="stringMinBetEmptyMessage">Please input Minimum Bet.</string>
+    <string name="stringMissSetting">Please update the config file first.</string>
+    <string name="stringUpdate">Update</string>
+    <string name="stringUploadMessage">Are you sure to upload the data file?</string>
+    <string name="stringUploadingMessage">Uploading</string>
+    <string name="stringDownloadingMessage">Downloading</string>
+    <string name="stringUploadNoFile">No file uploaded.</string>
+    <string name="stringUploadSuccessful">Above file have been successfully uploaded.</string>
+    <string name="stringUploadFailed">Above file have failed to upload, please try again later.</string>
+    <string name="stringUpdateSettingSuccessful">Update successful.</string>
+    <string name="stringUpdateSettingFailed">Failed to update, please try again later.</string>
+    <string name="stringConnectionError">Connection Error, please try again later.</string>
+    <string name="stringFinishMessage">Are you sure to finish this observation?</string>
+    <string name="stringFinishOkay">Yes</string>
+    <string name="stringFinishCancel">No</string>
+    <string name="stringConnect">Connect</string>
+    <string name="stringFTPServer">FTP Server</string>
+    <string name="stringFTPFolder">FTP Folder</string>
+    <string name="stringFTPUsername">FTP Username</string>
+    <string name="stringFTPPassword">FTP Password</string>
+    <string-array name="stringArrayActivity">
+        <item>BET</item>
+        <item>DEAL</item>
+        <item>PAYOUT</item>
+    </string-array>
+    <color name="colorLine">#666666</color>
+    <color name="colorSelectTypeLine">#FFFFFF</color>
+</resources>
